@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title> Cadastre-se </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,500,700|Josefin+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="1.css">
+    </head>
+
+    <body>
+        <div class="logo"> <a href="#"><img src="busão.png"></a>
+        </div>
+        <nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="viagens.html">Viagens</a></li>
+                <li><a href="formualarios.html">Enviar curriculo</a></li>
+                <li><a href="chamado.html">Chamado</a></li>
+				
+			  </ul>
+			  </nav>
+        <ul id="container">
+        <h1>Cadastre-se</h1>
+
+        <form action="www.url.com" id="form1" name="form-login" method="POST" >
+
+            <label for="Nome">
+               Nome: <input type="text" id="nome" name="nome"/>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Senha">
+                Email: <input type="email" id="email" name="email"/>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Nascimento">
+                Data de aniversario: <input type="date" id="nasc" name="nasc" min="1990-01-01"/>
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Endereço">
+                Endreço: <input type="end" id="end" name="end"
+                placeholder="ex: Avenida Brasil, 777"
+                />
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Fone">
+                Telefone: <input type="tel" id="tel" name="tel"
+                placeholder="ex: (21)94002-8922"
+                pattern="([0-9]){2}[0-9]{5}-[0-9]{4}"
+                />
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Cargo">
+                Cargos para selecionar: <br>
+                <select id="car" name="Cargos">
+                    <option value="Mt"> Motorista </option>
+                    <option value="Vp"> Venderdor de Passagens </option>
+                    <option value="Sp"> Supervisor </option>
+                    <option value="Ge"> Gerente </option>
+                </select>
+            </label>
+
+            <br>
+            <br>
+
+            <button>Enviar curriculo</button>
+
+        </form>
+        </ul>
+    </body>
+
+
+</html>
